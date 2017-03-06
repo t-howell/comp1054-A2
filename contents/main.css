@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.6em;
+	background-color: indianred;
+/*	max-width: 960px;
+	min-width: 720px;
+	vertical-align: center; */
+	/*background-image: url("gummy-bears.jpg");
+	background-size: cover;*/
+}
+
+header {
+	background-image: url("gummy-bear-header.jpg");
+	background-position: center;
+	height: 400px;
+	/*background-color: lightgrey;
+	padding: 10px;*/
+}
+nav#nav {
+	font-size: 200%;
+	padding-top: 1em;
+	text-decoration: none;
+	color: white;
+	
+}
+h1, h2, h3 {
+	font-family: 'Fredoka One', cursive;
+}
+h1 {
+	padding-top: 1em;
+	padding-left: 2em;
+	color: white;
+	font-size: 100px;
+	
+}
+div#main {
+	height: 500px;
+	width: 420px;
+	padding: 20px;
+	background-color: floralwhite;
+}
+div#list {
+	height: 500px;
+	width: 220px;
+	padding: 20px;
+	background-color: floralwhite;
+}
+div#aside {
+	
+	height: 500px;
+	width: 320px;
+	padding: 20px;
+	background-color: floralwhite;
+}
+img#figure {
+	width: 200px;
+}
+article {
+	display: flex;
+	justify-content: space-around;
+	font-size: 120%;
+	
+}
+h2 {
+	margin: 0;
+	padding-bottom: 1em;
+}
+footer {
+	background-color: darkred;
+	padding: 10px;
+}
+
